@@ -5,8 +5,12 @@ import java.util.List;
 import co.simplon.pf1.correctionjdbc.database.DatabaseConnection;
 import co.simplon.pf1.correctionjdbc.model.FoodAttribute;
 
-public class App 
-{
+public class App {
+  
+    /**
+     * Java doc main method
+     * @param args
+     */
     public static void main( String[] args )
     {     
       // Je veux me connecter à la base
