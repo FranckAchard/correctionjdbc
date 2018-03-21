@@ -76,6 +76,11 @@ public class FoodAttribute implements Comparable<FoodAttribute> {
     return this.name.compareToIgnoreCase(o.getName());
   }
 
+  /**
+   * Document static method
+   * @param dbConnect
+   * @return
+   */
   public static List<FoodAttribute> listFoodAttributesWhereEnergyMore200OrderDesc(DatabaseConnection dbConnect) {
     // Je veux ranger des aliments dans une liste
     List<FoodAttribute> foodList = new ArrayList<>();
