@@ -68,7 +68,8 @@ public class FoodAttribute implements Comparable<FoodAttribute> {
 
   @Override
   public String toString() {
-    return "FoodAttribute [name=" + name + ", energy=" + energy + "]";
+    return "coucou Jules!";
+    //return "FoodAttribute [name=" + name + ", energy=" + energy + "]";
   }
 
   @Override
