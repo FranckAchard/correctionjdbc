@@ -18,6 +18,16 @@ public class FoodAttribute implements Comparable<FoodAttribute> {
   private final int fat;
   private final int carb;
 
+  /**
+   * Document food db
+   * @param id
+   * @param category
+   * @param name
+   * @param energy
+   * @param prot
+   * @param fat
+   * @param carb
+   */
   public FoodAttribute(int id, int category, String name, int energy, int prot, int fat, int carb) {
     this.id = id;
     this.category = category;
